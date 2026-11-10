@@ -43,12 +43,14 @@ A free, open-source, drag-and-drop video compressor for macOS and Windows. It ke
 
 ## 下载
 
-成品包在 [Releases](../../releases/latest) 中免费提供，解压即用：
+**[v1.0.0 下载页](https://github.com/zhangyj19841123-star/video-compressor/releases/tag/v1.0.0)** — 完全免费，解压即用：
 
-| 平台 | 下载 | 大小 | 说明 |
+| 平台 | 直接下载 | 大小 | 适用系统 |
 |---|---|---|---|
-| macOS | `视频压缩转换器-macOS.zip` | 22 MB | 原生 `.app`，Apple Silicon（M 系列） |
-| Windows | `视频压缩转换器-Windows-Win7x64.zip` | 59 MB | 免安装，Win7 / 8 / 8.1 / 10 / 11 **64 位** |
+| macOS | [VideoCompressor-macOS.zip](https://github.com/zhangyj19841123-star/video-compressor/releases/download/v1.0.0/VideoCompressor-macOS.zip) | 22 MB | macOS 13+，Apple Silicon |
+| Windows | [VideoCompressor-Windows-Win7x64.zip](https://github.com/zhangyj19841123-star/video-compressor/releases/download/v1.0.0/VideoCompressor-Windows-Win7x64.zip) | 59 MB | Win7 / 8 / 8.1 / 10 / 11，64 位 |
+
+全部版本见 [Releases](https://github.com/zhangyj19841123-star/video-compressor/releases)，SHA-256 校验值附在版本说明里。
 
 也可以按 [从源码构建](#从源码构建) 自己编译，不依赖任何预编译包。
 

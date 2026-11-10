@@ -26,7 +26,7 @@ python3 -c "b=open('bin/ffmpeg.exe','rb').read(); print([s for s in [b'api-ms-wi
 python3 windows/pack.py
 ```
 
-产物：`dist/视频压缩转换器-Windows-Win7x64.zip`。`pack.py` 会自动：
+产物：`dist/视频压缩转换器-Windows-Win7x64.zip`（GitHub Releases 上发布的同一份包使用 ASCII 名 `VideoCompressor-Windows-Win7x64.zip`，内容一致）。`pack.py` 会自动：
 
 - 把所有 `.bat` / `.ps1` / `.txt` 统一转成 **CRLF**
 - 给 `app.ps1` 与中文说明加 **UTF-8 BOM**（PowerShell 2.0 与 Win7 记事本按 ANSI 解释无 BOM 的 UTF-8 会乱码）
